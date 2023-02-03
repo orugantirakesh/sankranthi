@@ -5,9 +5,10 @@
     </head>
     <body>
         <script>
-            var a=prompt("enter a name");
+            try{
+            var b=prompt("enter a name");
             switch(a){
-                case "prabhas":
+                case "prahas":
                     alert("mirchi");
                     break;
                 case "pavan":
@@ -31,6 +32,10 @@
                     alert("icjid");
                     break;
             }
+        }
+        catch(error){
+            console.log(error.messege);
+        }
         </script>
     </body>
 </html>
